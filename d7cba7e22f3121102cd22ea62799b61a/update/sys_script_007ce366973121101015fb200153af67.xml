@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Test Global scope - updated </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-28 23:33:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>007ce366973121101015fb200153af67</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test Global scope - updated </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="KT Global Scope">d7cba7e22f3121102cd22ea62799b61a</sys_scope>
+        <sys_update_name>sys_script_007ce366973121101015fb200153af67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-28 23:56:29</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=007ce366973121101015fb200153af67"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="KT Global Scope">d7cba7e22f3121102cd22ea62799b61a</claim_owner_scope>
+        <claim_timestamp>1872aa6d4090000001</claim_timestamp>
+        <metadata_update_name>sys_script_007ce366973121101015fb200153af67</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>KT Global Scope</previous_claim_name>
+        <previous_claim_scope>d7cba7e22f3121102cd22ea62799b61a</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-28 23:56:29</sys_created_on>
+        <sys_id>bec1bbaa2f3121102cd22ea62799b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-28 23:56:29</sys_updated_on>
+    </sys_claim>
+</record_update>
